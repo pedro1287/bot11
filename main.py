@@ -714,10 +714,10 @@ def onmessage(update,bot:ObigramClient):
 
 
 def main():
-    bot_token = '5574683780:AAHJ1Bu_6rHNIUQBT0AI_wUORmx9TfeNVOY'
+    bot_token = '5417843269:AAE0fwSk72KUBGCS8kVKEH2WDkcGL6KxbyM'
     print('init bot.')
     #set in debug
-    bot_token = '5574683780:AAHJ1Bu_6rHNIUQBT0AI_wUORmx9TfeNVOY'
+    bot_token = '5417843269:AAE0fwSk72KUBGCS8kVKEH2WDkcGL6KxbyM'
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
     bot.run()
